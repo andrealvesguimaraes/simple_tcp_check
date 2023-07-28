@@ -1,7 +1,8 @@
 # Simple_TCP_Check CLI using Rust
 
 # Build
-$ Cargo add Clap
+$ Cargo add clap
+
 $ Cargo build --release
 
 # Using Example
