@@ -1,6 +1,6 @@
 # Simple_TCP_Check CLI using Rust
 
-#Build
+# Build
 Cargo build --release
 
 # Using Example
