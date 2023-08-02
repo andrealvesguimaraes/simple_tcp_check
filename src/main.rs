@@ -12,7 +12,6 @@ fn main() -> Result<(), Error>{
         .about("TESTE CONECTIVIDADE COM USO DE SOCKET TCP")
         .arg(arg!(--file <VALUE>).required(true))
         .arg(arg!(--port <VALUE>).required(true))
-        .arg(arg!(--proxy <VALUE>).required(false))
         .get_matches();
 
     let path = matches.get_one::<String>("file").expect("required");
