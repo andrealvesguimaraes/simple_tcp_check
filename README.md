@@ -10,11 +10,19 @@
 </details>
 
 ## Build
-$ git clone https://github.com/andrealvesguimaraes/simple_tcp_check.git
 
-$ cd simple-tcp-check
+```sh
+git clone https://github.com/andrealvesguimaraes/simple_tcp_check.git
+cd simple-tcp-check
+cargo build --release
+```
 
-$ cargo build --release
+```sh
+## Edit Hosts to Test
+$ nano iplist.txt
+```
 
 ## Using Example
-$ ./target/release/tcp-check --file iplist.txt --port 8080
+```sh
+./target/release/tcp-check --file iplist.txt --port 8080
+```
