@@ -36,7 +36,7 @@ nano iplist.txt
 ## Usage
 
 Usage: tcp-check [OPTIONS] --file "file-name" --port "port-number"
-
+<pre>
 Options:
 
    -f, --file      File Name
@@ -46,6 +46,7 @@ Options:
    -h, --help      Print Help  
 
    -V, --version   Print Version
+</pre>
 
 ## Using Example
 ```sh
