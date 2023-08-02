@@ -38,9 +38,13 @@ nano iplist.txt
 Usage: tcp-check [OPTIONS] --file "file-name" --port "port-numer"
 
 Options:
+
 --file "file-name"
+
 --port "tcp-port-number"
+
 -h, --help           Print help  
+
 -V, --version        Print version
 
 ## Using Example
