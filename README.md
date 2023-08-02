@@ -39,13 +39,13 @@ Usage: tcp-check [OPTIONS] --file "file-name" --port "port-number"
 
 Options:
 
-   -f, --file "file-name"
+   -f, --file      File Name
 
-   -p, --port "tcp-port-number"
+   -p, --port      TCP Port Number
 
-   -h, --help           Print help  
+   -h, --help      Print Help  
 
-   -V, --version        Print version
+   -V, --version   Print Version
 
 ## Using Example
 ```sh
