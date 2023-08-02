@@ -4,11 +4,18 @@
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
+    <li><a href="#installing-rust">Installing Rust</a></li>
     <li><a href="#build">Build</a></li>
     <li><a href="#using-example">Using Example</a></li>
   </ol>
 </details>
 
+## Installing Rust
+If you’re running macOS, Linux, or another Unix-like OS.
+To download Rustup and install Rust, run the following in your terminal, then follow the on-screen instructions.
+'''sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+''
 ## Build
 
 ```sh
