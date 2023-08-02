@@ -13,11 +13,7 @@
 
 ```sh
 git clone https://github.com/andrealvesguimaraes/simple_tcp_check.git
-```
-```sh
-cd simple-tcp-check
-```
-```sh
+cd simple_tcp_check
 cargo build --release
 ```
 
