@@ -39,9 +39,9 @@ Usage: tcp-check [OPTIONS] --file "file-name" --port "port-numer"
 
 Options:
 
-   --file "file-name"
+   -f, --file "file-name"
 
-   --port "tcp-port-number"
+   -p, --port "tcp-port-number"
 
    -h, --help           Print help  
 
