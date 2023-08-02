@@ -7,7 +7,7 @@
   </ol>
 </details>
 
-# Simple_TCP_Check CLI using Rust
+## Simple_TCP_Check CLI using Rust
 
 ## Build
 $ Cargo add clap
