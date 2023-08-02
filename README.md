@@ -2,8 +2,8 @@
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
-    <li><a href="#getting-started">Build</a></li>
-    <li><a href="#programming">Using Example</a></li>
+    <li><a href="#build">Build</a></li>
+    <li><a href="#using-example">Using Example</a></li>
   </ol>
 </details>
 
