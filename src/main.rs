@@ -10,8 +10,8 @@ fn main() -> Result<(), Error>{
         .version("1.0")
         .author("Andre Guimaraes <andrealvesguimaraes@gmail.com>")
         .about("TESTE CONECTIVIDADE COM USO DE SOCKET TCP")
-        .arg(arg!(-f --file <VALUE>).required(true))
-        .arg(arg!(-p --port <VALUE>).required(true))
+        .arg(arg!(-f --file <FILE>).required(true))
+        .arg(arg!(-p --port <PORT>).required(true))
         .get_matches();
 
     let path = matches.get_one::<String>("file").expect("required");
