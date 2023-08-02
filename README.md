@@ -13,13 +13,18 @@
 
 ```sh
 git clone https://github.com/andrealvesguimaraes/simple_tcp_check.git
+```
+```sh
 cd simple-tcp-check
+```
+```sh
 cargo build --release
 ```
 
+
+### Edit Hosts to Test
 ```sh
-## Edit Hosts to Test
-$ nano iplist.txt
+nano iplist.txt
 ```
 
 ## Using Example
