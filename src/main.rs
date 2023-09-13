@@ -9,7 +9,7 @@ fn main() -> Result<(), Error>{
     let matches = Command::new("HOSTS CHECK")
         .version("1.0")
         .author("Andre Guimaraes <andrealvesguimaraes@gmail.com>")
-        .about("TESTE CONECTIVIDADE COM USO DE SOCKET TCP")
+        .about("CONNECTIVITY CHECK USING TCP SOCKET")
         .arg(arg!(-f --file <FILE>).required(true))
         .arg(arg!(-p --port <PORT>).required(true))
         .get_matches();
